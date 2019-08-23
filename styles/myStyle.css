@@ -28,10 +28,8 @@ body {
 
     }
 
-@media screen and (max-device-width: 600px) {
-  body.modal-open {
-    overflow: hidden;
-  }
+.modal-open .modal {
+    overflow-y: hidden;
 }
 
 #backToTopM {
